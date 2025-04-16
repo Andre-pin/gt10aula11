@@ -11,12 +11,14 @@
     color: hsl(192, 100%, 9%);
   }
   
-  /* Header */
+  /* Header com imagem de fundo */
   .header {
     padding: 40px 0;
-    background-color: hsl(193, 100%, 96%);
+    background: hsl(193, 100%, 96%) url('./images/bg-hero-desktop.svg') no-repeat center top;
+    background-size: cover;
   }
   
+  /* Container central */
   .container {
     width: 90%;
     max-width: 1200px;
@@ -92,7 +94,7 @@
     background: hsl(322, 100%, 75%);
   }
   
-  /* Imagem */
+  /* Imagem do mockup */
   .header-image {
     flex: 1 1 500px;
     text-align: center;
