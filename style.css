@@ -10,3 +10,27 @@
     background-color: hsl(193, 100%, 96%);
     color: hsl(192, 100%, 9%);
   }
+
+  /* Header */
+  .header {
+    padding: 40px 0;
+    background-color: hsl(193, 100%, 96%);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navegação */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .logo {
+    width: 150px;
+  }
